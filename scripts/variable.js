@@ -60,3 +60,37 @@ document.writeln("<br>");
 document.writeln("Ruangan: " + room + "<br>");
 document.writeln("Jumlah Siswa: " + studentCount + "<br>");
 document.writeln("Mata Kuliah: " + course + "<br>");
+
+
+// Example of letiable declaration with const
+document.writeln("<h3>Example of const declaration with const</h3>");
+const brandName = "TechGenius";
+const product = "Smartphone";
+const price = 999.99;
+
+// if u use const, u can't change the value of a const declared with const
+document.writeln("<p>if u use const, u can't change the value of a const declared with const</p>")
+
+// example of const declaration
+document.writeln("Nama Merek: " + brandName + "<br>");
+document.writeln("Produk: " + product + "<br>");
+document.writeln("Harga: $" + price.toFixed(2) + "<br>");
+document.writeln("<br>");
+
+// if i try to change the value of a const declared with const, it will throw an error
+try {
+    brandName = "TechMaster"; // This will throw an error
+    product = "Tablet"; // This will also throw an error
+    price = 799.99; // This will also throw an error
+} catch (error) {
+    document.writeln("<p>Error: " + error.message + "</p>");
+}
+
+document.writeln("Nama Merek: " + brandName + "<br>");
+document.writeln("Produk: " + product + "<br>");
+document.writeln("Harga: $" + price.toFixed(2) + "<br>");
+
+
+// overall, u just need to remember that: i will recommend using let
+// - let is used to declare a variable that can be changed later. 
+// - const is used to declare a variable that cannot be changed later.

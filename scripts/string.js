@@ -15,7 +15,7 @@ document.writeln("Nama : Adit Tua" + "<br>" + "Alamat : Jl. Merdeka No. 1" + "<b
 // ** \\ for Backslash
 
 document.writeln("<h3>Escape Sequences</h3>");
-document.writeln("Ali \n adalah seorang programmer yang sangat cupu." + "<br>");
-document.writeln("Dia selalu menggunakan \"console.log\" untuk mencetak output." + "<br>");
-document.writeln("Dia juga suka menggunakan \\ untuk menampilkan karakter backslash." + "<br>");
-document.writeln("Dia sering menggunakan \' untuk menampilkan karakter petik tunggal." + "<br>");
+document.writeln("<p>Ali \n adalah seorang programmer yang sangat cupu.</p>");
+document.writeln("<p>Dia selalu menggunakan \"console.log\" untuk mencetak output. </p>");
+document.writeln("<p>Dia juga suka menggunakan \\ untuk menampilkan karakter backslash. </p>");
+document.writeln("<p>Dia sering menggunakan \' untuk menampilkan karakter petik tunggal.</p>");
